@@ -1,12 +1,12 @@
-# Getting Started with Create React App
+# Mundial Futbol Alemania 2006
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Un viaje al pasado
 
 In the project directory, you can run:
 
-### `npm start`
+### Objetivo del proyecto
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
