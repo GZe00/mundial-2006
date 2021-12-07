@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Home from './pages/Home';
 import Calendario from './pages/Calendario'
 import Grupos from './pages/Grupos'
+import Alemania2006 from './pages/Alemania2006';
 
 import Pais from './pages/paises/[id]'
 
@@ -25,6 +26,7 @@ const App = () => {
             <Router>
                 <Switch>
                     <Route exact path="/" component={() => { return <Home /> }} />
+                    <Route path="/alemania_2006" component={() => {return <Alemania2006 />}}/>
                     <Route path="/calendario" component={() => { return <Calendario /> }} />
                     <Route path="/grupos" component={() => { return <Grupos /> }} />
                     <Route path={`/paises/${paisId}`} component={() => { return <Pais pais={paisId} />}} />
