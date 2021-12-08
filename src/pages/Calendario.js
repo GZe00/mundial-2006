@@ -5,8 +5,8 @@ import CardPais from '../components/CardPais'
 
 
 const Calendario = () => {
-    // const [paises] = React.useState(['alemania','angola','arabia_saudita','argentina','australia','brasil','costa_de_marfil','costa_rica','croacia','ecuador','españa','estados_unidos','francia','ghana','holanda','inglaterra','iran','italia','japon','mexico','paraguay','polonia','portugal','republica_checa','republica_de_corea','serbia_y_montenegro','suecia','suiza','togo','trinidad_y_tobago','tunez','ucrania'])
-    const [paises] = React.useState(['alemania','angola','arabia_saudita', 'argentina'])
+    const [paises] = React.useState(['alemania','angola','arabia_saudita','argentina','australia','brasil','costa_de_marfil','costa_rica','croacia','ecuador','españa','estados_unidos','francia','ghana','holanda','inglaterra','iran','italia','japon','mexico','paraguay','polonia','portugal','republica_checa','republica_de_corea','serbia_y_montenegro','suecia','suiza','togo','trinidad_y_tobago','tunez','ucrania'])
+    // const [paises] = React.useState(['alemania','angola','arabia_saudita', 'argentina'])
 
     const paisMini = () =>  paises.map((pais, key) => <CardPais pais={pais} key={key}/>)
 
